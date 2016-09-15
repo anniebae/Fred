@@ -1,4 +1,4 @@
-@import 'bourbon'; // http://bourbon.io/
+@import 'bourbon/bourbon'; // http://bourbon.io/
 
 @import '../partials/variables'; // colors, fonts etc...
 
@@ -68,18 +68,18 @@ Main components
 	padding: 2em 0;
 
 	&:nth-of-type(odd) {
-		background-color: $color-1;
+		background-color: #fff;
 
 		p {
-			color: lighten($color-1, 30%);
+			color: lighten(#696969, 30%);
 		}
 	}
 
 	&:nth-of-type(even) {
-		background-color: $color-2;
+		background-color: #2E3C56;
 
 		p {
-			color: lighten($color-2, 30%);
+			color: lighten(#778899, 30%);
 		}
 	}
 
@@ -92,7 +92,7 @@ Main components
 	}
 
 	h1 {
-		color: $color-5;
+		color: #696969;
 		font-weight: 300;
 		text-transform: uppercase;
 		@include font-size(20px);
@@ -161,7 +161,7 @@ Main components
 		}
 
 		&.is-selected .cd-dot {
-			background-color: $color-4;
+			background-color: #6c7688;
 		}
 	} 
 
@@ -172,7 +172,7 @@ Main components
 		height: 12px;
 		width: 12px;
 		border-radius: 50%;
-		background-color: $color-3;
+		background-color: #cdcdcd;
 		-webkit-transition: -webkit-transform 0.2s, background-color 0.5s;
 		-moz-transition: -moz-transform 0.2s, background-color 0.5s;
 		transition: transform 0.2s, background-color 0.5s;
@@ -183,7 +183,7 @@ Main components
 		position: relative;
 		margin-right: 10px;
 		padding: .4em .5em;
-		color: $color-4;
+		color: #DEB887;
 		@include font-size(14px);
 
 		-webkit-transition: -webkit-transform 0.2s, opacity 0.2s;
