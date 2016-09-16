@@ -161,7 +161,7 @@ Main components
 		}
 
 		&.is-selected .cd-dot {
-			background-color: #DEB887;
+			background-color: #e9d1b2;
 		}
 	} 
 
@@ -183,7 +183,7 @@ Main components
 		position: relative;
 		margin-right: 10px;
 		padding: .4em .5em;
-		color: #DEB887;
+		color: #e9d1b2;
 		@include font-size(14px);
 
 		-webkit-transition: -webkit-transform 0.2s, opacity 0.2s;
