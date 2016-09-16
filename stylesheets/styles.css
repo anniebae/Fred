@@ -52,7 +52,7 @@ Main components
   .cd-section:nth-of-type(odd) {
     background-color: #fff; }
     .cd-section:nth-of-type(odd) p {
-      color: #b6b6b6; }
+      color: #696969; }
   .cd-section:nth-of-type(even) {
     background-color: #2E3C56; }
     .cd-section:nth-of-type(even) p {
@@ -79,7 +79,7 @@ Main components
     font-size: 1.25rem; }
   .cd-section p {
     line-height: 1.6; }
-  .cd-section .social {
+  .cd-section .hello, .cd-section .about, .cd-section .social {
     text-align: center;
     position: absolute;
     left: 50%;
@@ -94,18 +94,48 @@ Main components
     width: 90%;
     max-width: 768px;
     text-align: center; }
-    .cd-section .social ul {
+    .cd-section .hello .name, .cd-section .about .name, .cd-section .social .name {
+      font-size: 1.875rem;
+      color: #696969;
+      font-weight: 300;
+      margin-bottom: 8px;
+      text-transform: uppercase; }
+    .cd-section .hello .location, .cd-section .about .location, .cd-section .social .location {
+      font-size: 12px;
+      color: #696969;
+      font-weight: 300; }
+      .cd-section .hello .location img, .cd-section .about .location img, .cd-section .social .location img {
+        width: 16px; }
+    .cd-section .hello img.about_img, .cd-section .about img.about_img, .cd-section .social img.about_img {
+      border-radius: 70px; }
+    .cd-section .hello .part, .cd-section .about .part, .cd-section .social .part {
+      color: #e9d1b2;
+      text-align: left;
+      width: 60%;
+      margin: 0 auto; }
+      .cd-section .hello .part .part-title, .cd-section .about .part .part-title, .cd-section .social .part .part-title {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 20px; }
+      .cd-section .hello .part .part-desc, .cd-section .about .part .part-desc, .cd-section .social .part .part-desc {
+        line-height: 28px;
+        font-size: 15px; }
+        .cd-section .hello .part .part-desc a, .cd-section .about .part .part-desc a, .cd-section .social .part .part-desc a {
+          color: #ced5db; }
+          .cd-section .hello .part .part-desc a:hover, .cd-section .about .part .part-desc a:hover, .cd-section .social .part .part-desc a:hover {
+            color: #f5f6f7;
+            text-decoration: underline; }
+    .cd-section .hello ul, .cd-section .about ul, .cd-section .social ul {
       list-style-type: none; }
-      .cd-section .social ul li {
+      .cd-section .hello ul li, .cd-section .about ul li, .cd-section .social ul li {
         display: inline-block; }
-        .cd-section .social ul li a img:hover {
+        .cd-section .hello ul li a img:hover, .cd-section .about ul li a img:hover, .cd-section .social ul li a img:hover {
           filter: hue-rotate(180deg);
           -webkit-filter: hue-rotate(180deg); }
-    .cd-section .social span.email {
+    .cd-section .hello span.email, .cd-section .about span.email, .cd-section .social span.email {
       font-size: 12px; }
-      .cd-section .social span.email a {
+      .cd-section .hello span.email a, .cd-section .about span.email a, .cd-section .social span.email a {
         color: #e9d1b2; }
-        .cd-section .social span.email a:hover {
+        .cd-section .hello span.email a:hover, .cd-section .about span.email a:hover, .cd-section .social span.email a:hover {
           color: #ced5db; }
   @media only screen and (min-width: 768px) {
     .cd-section h1 {
