@@ -108,19 +108,31 @@ Main components
         width: 16px; }
     .cd-section .hello img.about_img, .cd-section .about img.about_img, .cd-section .social img.about_img {
       border-radius: 70px; }
+    .cd-section .hello div.subtitle, .cd-section .about div.subtitle, .cd-section .social div.subtitle {
+      font-family: 'Montserrat', sans-serif;
+      font-size: 11px;
+      font-weight: 100;
+      margin: 10px 0 15px 0;
+      color: #fff;
+      text-align: center;
+      letter-spacing: 3px;
+      line-height: 25px; }
     .cd-section .hello .part, .cd-section .about .part, .cd-section .social .part {
-      color: #e9d1b2;
+      color: #fff;
       text-align: left;
-      width: 60%;
-      margin: 0 auto; }
+      margin: 0 auto;
+      margin-bottom: 10px; }
       .cd-section .hello .part .part-title, .cd-section .about .part .part-title, .cd-section .social .part .part-title {
         font-family: 'Montserrat', sans-serif;
-        font-size: 20px; }
+        font-size: 14px;
+        text-transform: uppercase;
+        letter-spacing: 3px; }
       .cd-section .hello .part .part-desc, .cd-section .about .part .part-desc, .cd-section .social .part .part-desc {
         line-height: 28px;
-        font-size: 15px; }
+        font-weight: 100;
+        font-size: 14px; }
         .cd-section .hello .part .part-desc a, .cd-section .about .part .part-desc a, .cd-section .social .part .part-desc a {
-          color: #ced5db; }
+          color: #e9d1b2; }
           .cd-section .hello .part .part-desc a:hover, .cd-section .about .part .part-desc a:hover, .cd-section .social .part .part-desc a:hover {
             color: #f5f6f7;
             text-decoration: underline; }
@@ -128,15 +140,17 @@ Main components
       list-style-type: none; }
       .cd-section .hello ul li, .cd-section .about ul li, .cd-section .social ul li {
         display: inline-block; }
-        .cd-section .hello ul li a img:hover, .cd-section .about ul li a img:hover, .cd-section .social ul li a img:hover {
-          filter: hue-rotate(180deg);
-          -webkit-filter: hue-rotate(180deg); }
+        .cd-section .hello ul li a img, .cd-section .about ul li a img, .cd-section .social ul li a img {
+          width: 60px;
+          transition: .5s ease-in-out; }
+          .cd-section .hello ul li a img:hover, .cd-section .about ul li a img:hover, .cd-section .social ul li a img:hover {
+            transform: scale(1.1); }
     .cd-section .hello span.email, .cd-section .about span.email, .cd-section .social span.email {
       font-size: 12px; }
       .cd-section .hello span.email a, .cd-section .about span.email a, .cd-section .social span.email a {
-        color: #e9d1b2; }
+        color: #fff; }
         .cd-section .hello span.email a:hover, .cd-section .about span.email a:hover, .cd-section .social span.email a:hover {
-          color: #ced5db; }
+          color: #e9d1b2; }
   @media only screen and (min-width: 768px) {
     .cd-section h1 {
       font-size: 30px;
@@ -348,5 +362,27 @@ Main components
 @media only screen and (min-width: 768px) {
   .touch .cd-nav-trigger, .touch #cd-vertical-nav {
     bottom: 40px; } }
+@media only screen and (max-width: 767px) {
+  .cd-section .about .row {
+    width: 70%;
+    margin: 0 auto; } }
+@media only screen and (max-width: 620px) {
+  .cd-section .about .row {
+    width: 85%; }
+  .cd-section .about .part .part-desc {
+    line-height: 22px; } }
+@media only screen and (max-width: 400px) {
+  .cd-section .about img.about_img {
+    width: 100px; }
+  .cd-section .about div.subtitle {
+    font-size: 8px;
+    margin: 5px 0 10px 0; }
+  .cd-section .about .row {
+    width: 95%; }
+  .cd-section .about .part .part-title {
+    font-size: 12px; }
+  .cd-section .about .part .part-desc {
+    font-size: 11px;
+    line-height: 18px; } }
 
 /*# sourceMappingURL=styles.css.map */

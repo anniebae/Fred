@@ -1,4 +1,7 @@
-jQuery(document).ready(function($){
+$(function() {
+
+// jQuery(document).ready(function($){
+
 	var contentSections = $('.cd-section'),
 		navigationItems = $('#cd-vertical-nav a');
 
@@ -46,4 +49,15 @@ jQuery(document).ready(function($){
         	600
         );
 	}
+
+	// function onHover() {
+	// 	alert('onhover');
+	// 	$('.socialImg').attr('src', 'img/github_b.png');
+	// }
+
+	// function offHover() {
+	// 	$('.socialImg').attr('src', 'img/github.png');
+	// }
+
+// });
 });

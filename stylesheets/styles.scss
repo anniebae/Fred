@@ -141,25 +141,39 @@ Main components
 	    	border-radius: 70px;
 	    }
 
+	    div.subtitle {
+	    	font-family: 'Montserrat', sans-serif;
+		    font-size: 11px;
+		    font-weight: 100;
+		    margin: 10px 0 15px 0;
+		    color: #fff;
+		    text-align: center;
+		    letter-spacing: 3px;
+		    line-height: 25px;
+	    }
+
 
 
 	    .part {
-	    	color: #e9d1b2;
+	    	color: #fff;
 	    	text-align: left;
-	    	width: 60%;
 	    	margin: 0 auto;
+	    	margin-bottom: 10px;
 
 	    	.part-title {
 	    		font-family: 'Montserrat', sans-serif;
-            	font-size: 20px;
+            	font-size: 14px;
+            	text-transform: uppercase;
+            	letter-spacing: 3px;
 	    	}
 
 	    	.part-desc {
 	    		line-height: 28px;
-            	font-size: 15px;
+            	font-weight: 100;
+            	font-size: 14px;
 	    		
 	    		a {
-	    			color: #ced5db;
+	    			color: #e9d1b2;
 
 	    			&:hover {
 	    				color: #f5f6f7;
@@ -176,10 +190,16 @@ Main components
 
 				a {
 					img {
+						width: 60px;
+						transition: .5s ease-in-out;
+
+						// &:hover {
+						// 	filter: hue-rotate(180deg);
+						// 	-webkit-filter: hue-rotate(180deg);
+						// }
 						&:hover {
-							filter: hue-rotate(180deg);
-							-webkit-filter: hue-rotate(180deg);
-						}
+			            	transform: scale(1.1);
+			            }
 					}
 				}
 			}
@@ -188,10 +208,10 @@ Main components
 			font-size: 12px;
 
 			a {
-				color: #e9d1b2;
+				color: #fff;
 				
 				&:hover {
-					color: #ced5db;
+					color: #e9d1b2;
 				}
 			}
 		}
@@ -399,5 +419,58 @@ Main components
 @include MQ(M) {
 	.touch .cd-nav-trigger, .touch #cd-vertical-nav {
 		bottom: 40px;
+	}
+}
+
+
+@media only screen and (max-width: 767px) {
+	.cd-section {
+		.about {
+			.row {
+				width: 70%;
+				margin: 0 auto;
+			}
+		}
+	}
+}
+
+@media only screen and (max-width: 620px) {
+	.cd-section {
+		.about {
+			.row {
+				width: 85%;
+			}
+			.part {
+				.part-desc {
+					line-height: 22px;
+				}
+			}
+		}
+	}
+}
+
+@media only screen and (max-width: 400px) {
+	.cd-section {
+		.about {
+			img.about_img {
+				width: 100px;
+			}
+			div.subtitle {
+				font-size: 8px;
+				margin: 5px 0 10px 0;
+			}
+			.row {
+				width: 95%;
+			}
+			.part {
+				.part-title {
+					font-size: 12px;
+				}
+				.part-desc {
+					font-size: 11px;
+					line-height: 18px;
+				}
+			}
+		}
 	}
 }
