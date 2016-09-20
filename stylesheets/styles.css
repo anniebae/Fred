@@ -79,7 +79,7 @@ Main components
     font-size: 1.25rem; }
   .cd-section p {
     line-height: 1.6; }
-  .cd-section .hello, .cd-section .about, .cd-section .social {
+  .cd-section .hello, .cd-section .about, .cd-section .social, .cd-section .projects {
     text-align: center;
     position: absolute;
     left: 50%;
@@ -94,21 +94,21 @@ Main components
     width: 90%;
     max-width: 768px;
     text-align: center; }
-    .cd-section .hello .name, .cd-section .about .name, .cd-section .social .name {
+    .cd-section .hello .name, .cd-section .about .name, .cd-section .social .name, .cd-section .projects .name {
       font-size: 1.875rem;
       color: #696969;
       font-weight: 300;
       margin-bottom: 8px;
       text-transform: uppercase; }
-    .cd-section .hello .location, .cd-section .about .location, .cd-section .social .location {
+    .cd-section .hello .location, .cd-section .about .location, .cd-section .social .location, .cd-section .projects .location {
       font-size: 12px;
       color: #696969;
       font-weight: 300; }
-      .cd-section .hello .location img, .cd-section .about .location img, .cd-section .social .location img {
+      .cd-section .hello .location img, .cd-section .about .location img, .cd-section .social .location img, .cd-section .projects .location img {
         width: 16px; }
-    .cd-section .hello img.about_img, .cd-section .about img.about_img, .cd-section .social img.about_img {
+    .cd-section .hello img.about_img, .cd-section .about img.about_img, .cd-section .social img.about_img, .cd-section .projects img.about_img {
       border-radius: 70px; }
-    .cd-section .hello div.subtitle, .cd-section .about div.subtitle, .cd-section .social div.subtitle {
+    .cd-section .hello div.subtitle, .cd-section .about div.subtitle, .cd-section .social div.subtitle, .cd-section .projects div.subtitle {
       font-family: 'Montserrat', sans-serif;
       font-size: 11px;
       font-weight: 100;
@@ -117,39 +117,45 @@ Main components
       text-align: center;
       letter-spacing: 3px;
       line-height: 25px; }
-    .cd-section .hello .part, .cd-section .about .part, .cd-section .social .part {
+    .cd-section .hello .part, .cd-section .about .part, .cd-section .social .part, .cd-section .projects .part {
       color: #fff;
       text-align: left;
       margin: 0 auto;
       margin-bottom: 10px; }
-      .cd-section .hello .part .part-title, .cd-section .about .part .part-title, .cd-section .social .part .part-title {
+      .cd-section .hello .part .part-title, .cd-section .about .part .part-title, .cd-section .social .part .part-title, .cd-section .projects .part .part-title {
         font-family: 'Montserrat', sans-serif;
         font-size: 14px;
         text-transform: uppercase;
         letter-spacing: 3px; }
-      .cd-section .hello .part .part-desc, .cd-section .about .part .part-desc, .cd-section .social .part .part-desc {
+      .cd-section .hello .part .part-desc, .cd-section .about .part .part-desc, .cd-section .social .part .part-desc, .cd-section .projects .part .part-desc {
         line-height: 28px;
         font-weight: 100;
         font-size: 14px; }
-        .cd-section .hello .part .part-desc a, .cd-section .about .part .part-desc a, .cd-section .social .part .part-desc a {
+        .cd-section .hello .part .part-desc a, .cd-section .about .part .part-desc a, .cd-section .social .part .part-desc a, .cd-section .projects .part .part-desc a {
           color: #e9d1b2; }
-          .cd-section .hello .part .part-desc a:hover, .cd-section .about .part .part-desc a:hover, .cd-section .social .part .part-desc a:hover {
+          .cd-section .hello .part .part-desc a:hover, .cd-section .about .part .part-desc a:hover, .cd-section .social .part .part-desc a:hover, .cd-section .projects .part .part-desc a:hover {
             color: #f5f6f7;
             text-decoration: underline; }
-    .cd-section .hello ul, .cd-section .about ul, .cd-section .social ul {
+    .cd-section .hello #owl-demo .owl-controls .owl-pagination, .cd-section .about #owl-demo .owl-controls .owl-pagination, .cd-section .social #owl-demo .owl-controls .owl-pagination, .cd-section .projects #owl-demo .owl-controls .owl-pagination {
+      display: none; }
+    .cd-section .hello #owl-demo .owl-controls .owl-buttons .owl-prev, .cd-section .hello #owl-demo .owl-controls .owl-buttons .owl-next, .cd-section .about #owl-demo .owl-controls .owl-buttons .owl-prev, .cd-section .about #owl-demo .owl-controls .owl-buttons .owl-next, .cd-section .social #owl-demo .owl-controls .owl-buttons .owl-prev, .cd-section .social #owl-demo .owl-controls .owl-buttons .owl-next, .cd-section .projects #owl-demo .owl-controls .owl-buttons .owl-prev, .cd-section .projects #owl-demo .owl-controls .owl-buttons .owl-next {
+      border: 1px solid #818a99;
+      color: #818a99;
+      background: none; }
+    .cd-section .hello ul, .cd-section .about ul, .cd-section .social ul, .cd-section .projects ul {
       list-style-type: none; }
-      .cd-section .hello ul li, .cd-section .about ul li, .cd-section .social ul li {
+      .cd-section .hello ul li, .cd-section .about ul li, .cd-section .social ul li, .cd-section .projects ul li {
         display: inline-block; }
-        .cd-section .hello ul li a img, .cd-section .about ul li a img, .cd-section .social ul li a img {
+        .cd-section .hello ul li a img, .cd-section .about ul li a img, .cd-section .social ul li a img, .cd-section .projects ul li a img {
           width: 60px;
           transition: .5s ease-in-out; }
-          .cd-section .hello ul li a img:hover, .cd-section .about ul li a img:hover, .cd-section .social ul li a img:hover {
+          .cd-section .hello ul li a img:hover, .cd-section .about ul li a img:hover, .cd-section .social ul li a img:hover, .cd-section .projects ul li a img:hover {
             transform: scale(1.1); }
-    .cd-section .hello span.email, .cd-section .about span.email, .cd-section .social span.email {
+    .cd-section .hello span.email, .cd-section .about span.email, .cd-section .social span.email, .cd-section .projects span.email {
       font-size: 12px; }
-      .cd-section .hello span.email a, .cd-section .about span.email a, .cd-section .social span.email a {
+      .cd-section .hello span.email a, .cd-section .about span.email a, .cd-section .social span.email a, .cd-section .projects span.email a {
         color: #fff; }
-        .cd-section .hello span.email a:hover, .cd-section .about span.email a:hover, .cd-section .social span.email a:hover {
+        .cd-section .hello span.email a:hover, .cd-section .about span.email a:hover, .cd-section .social span.email a:hover, .cd-section .projects span.email a:hover {
           color: #e9d1b2; }
   @media only screen and (min-width: 768px) {
     .cd-section h1 {

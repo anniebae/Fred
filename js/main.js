@@ -50,14 +50,19 @@ $(function() {
         );
 	}
 
-	// function onHover() {
-	// 	alert('onhover');
-	// 	$('.socialImg').attr('src', 'img/github_b.png');
-	// }
+	$("#owl-demo").owlCarousel({
 
-	// function offHover() {
-	// 	$('.socialImg').attr('src', 'img/github.png');
-	// }
+		navigation : true, // Show next and prev buttons
+		slideSpeed : 300,
+		paginationSpeed : 400,
+		singleItem:true
 
-// });
+		// "singleItem:true" is a shortcut for:
+		// items : 1, 
+		// itemsDesktop : false,
+		// itemsDesktopSmall : false,
+		// itemsTablet: false,
+		// itemsMobile : false
+
+	});
 });
