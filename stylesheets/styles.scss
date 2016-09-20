@@ -183,7 +183,8 @@ Main components
 	    	}
 	    }
 
-	    #owl-demo {
+
+	    #proj1, #proj2 {
 	    	.owl-controls {
 	    		.owl-pagination {
 	    			display: none;
@@ -197,6 +198,13 @@ Main components
 	    		}
 	    	}
 	    }
+
+	    .owl-carousel img {
+	    	width: 768px;
+	    	height: 423px;
+	    	// object-fit: cover;
+	    }
+
 		
 		ul {
 			list-style-type: none;

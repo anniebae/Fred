@@ -50,7 +50,7 @@ $(function() {
         );
 	}
 
-	$("#owl-demo").owlCarousel({
+	$(" #proj2").owlCarousel({
 
 		navigation : true, // Show next and prev buttons
 		slideSpeed : 300,
@@ -65,4 +65,6 @@ $(function() {
 		// itemsMobile : false
 
 	});
+
+
 });

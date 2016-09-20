@@ -136,12 +136,15 @@ Main components
           .cd-section .hello .part .part-desc a:hover, .cd-section .about .part .part-desc a:hover, .cd-section .social .part .part-desc a:hover, .cd-section .projects .part .part-desc a:hover {
             color: #f5f6f7;
             text-decoration: underline; }
-    .cd-section .hello #owl-demo .owl-controls .owl-pagination, .cd-section .about #owl-demo .owl-controls .owl-pagination, .cd-section .social #owl-demo .owl-controls .owl-pagination, .cd-section .projects #owl-demo .owl-controls .owl-pagination {
+    .cd-section .hello #proj1 .owl-controls .owl-pagination, .cd-section .hello #proj2 .owl-controls .owl-pagination, .cd-section .about #proj1 .owl-controls .owl-pagination, .cd-section .about #proj2 .owl-controls .owl-pagination, .cd-section .social #proj1 .owl-controls .owl-pagination, .cd-section .social #proj2 .owl-controls .owl-pagination, .cd-section .projects #proj1 .owl-controls .owl-pagination, .cd-section .projects #proj2 .owl-controls .owl-pagination {
       display: none; }
-    .cd-section .hello #owl-demo .owl-controls .owl-buttons .owl-prev, .cd-section .hello #owl-demo .owl-controls .owl-buttons .owl-next, .cd-section .about #owl-demo .owl-controls .owl-buttons .owl-prev, .cd-section .about #owl-demo .owl-controls .owl-buttons .owl-next, .cd-section .social #owl-demo .owl-controls .owl-buttons .owl-prev, .cd-section .social #owl-demo .owl-controls .owl-buttons .owl-next, .cd-section .projects #owl-demo .owl-controls .owl-buttons .owl-prev, .cd-section .projects #owl-demo .owl-controls .owl-buttons .owl-next {
+    .cd-section .hello #proj1 .owl-controls .owl-buttons .owl-prev, .cd-section .hello #proj1 .owl-controls .owl-buttons .owl-next, .cd-section .hello #proj2 .owl-controls .owl-buttons .owl-prev, .cd-section .hello #proj2 .owl-controls .owl-buttons .owl-next, .cd-section .about #proj1 .owl-controls .owl-buttons .owl-prev, .cd-section .about #proj1 .owl-controls .owl-buttons .owl-next, .cd-section .about #proj2 .owl-controls .owl-buttons .owl-prev, .cd-section .about #proj2 .owl-controls .owl-buttons .owl-next, .cd-section .social #proj1 .owl-controls .owl-buttons .owl-prev, .cd-section .social #proj1 .owl-controls .owl-buttons .owl-next, .cd-section .social #proj2 .owl-controls .owl-buttons .owl-prev, .cd-section .social #proj2 .owl-controls .owl-buttons .owl-next, .cd-section .projects #proj1 .owl-controls .owl-buttons .owl-prev, .cd-section .projects #proj1 .owl-controls .owl-buttons .owl-next, .cd-section .projects #proj2 .owl-controls .owl-buttons .owl-prev, .cd-section .projects #proj2 .owl-controls .owl-buttons .owl-next {
       border: 1px solid #818a99;
       color: #818a99;
       background: none; }
+    .cd-section .hello .owl-carousel img, .cd-section .about .owl-carousel img, .cd-section .social .owl-carousel img, .cd-section .projects .owl-carousel img {
+      width: 768px;
+      height: 423px; }
     .cd-section .hello ul, .cd-section .about ul, .cd-section .social ul, .cd-section .projects ul {
       list-style-type: none; }
       .cd-section .hello ul li, .cd-section .about ul li, .cd-section .social ul li, .cd-section .projects ul li {
