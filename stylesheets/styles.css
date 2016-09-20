@@ -141,37 +141,52 @@ Main components
     .cd-section .hello .dropdown, .cd-section .about .dropdown, .cd-section .social .dropdown, .cd-section .projects .dropdown {
       position: relative;
       display: inline-block;
-      z-index: 1; }
+      z-index: 1;
+      margin-bottom: 23px; }
       .cd-section .hello .dropdown .dropbtn, .cd-section .about .dropdown .dropbtn, .cd-section .social .dropdown .dropbtn, .cd-section .projects .dropdown .dropbtn {
-        background-color: #4CAF50;
-        color: white;
-        padding: 16px;
-        font-size: 16px;
-        border: none;
-        cursor: pointer; }
+        padding: 12px;
+        font-size: 12px;
+        font-family: 'Montserrat', sans-serif;
+        letter-spacing: 3px;
+        cursor: pointer;
+        text-transform: uppercase;
+        border: 1px solid #818a99;
+        color: #fff;
+        background: #818a99; }
       .cd-section .hello .dropdown .dropdown-content, .cd-section .about .dropdown .dropdown-content, .cd-section .social .dropdown .dropdown-content, .cd-section .projects .dropdown .dropdown-content {
         display: none;
         position: absolute;
-        background-color: #f9f9f9;
         min-width: 160px;
-        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2); }
-        .cd-section .hello .dropdown .dropdown-content .dropdown-content a, .cd-section .about .dropdown .dropdown-content .dropdown-content a, .cd-section .social .dropdown .dropdown-content .dropdown-content a, .cd-section .projects .dropdown .dropdown-content .dropdown-content a {
-          color: black;
-          padding: 12px 16px;
-          text-decoration: none;
-          display: block; }
-          .cd-section .hello .dropdown .dropdown-content .dropdown-content a:hover, .cd-section .about .dropdown .dropdown-content .dropdown-content a:hover, .cd-section .social .dropdown .dropdown-content .dropdown-content a:hover, .cd-section .projects .dropdown .dropdown-content .dropdown-content a:hover {
-            background-color: #f1f1f1; }
+        text-align: left;
+        list-style: none;
+        background-color: #fff;
+        -webkit-background-clip: padding-box;
+        background-clip: padding-box;
+        border: 1px solid #ccc;
+        border: 1px solid rgba(0, 0, 0, 0.15);
+        -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
+        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175); }
+        .cd-section .hello .dropdown .dropdown-content ul.project-list li, .cd-section .about .dropdown .dropdown-content ul.project-list li, .cd-section .social .dropdown .dropdown-content ul.project-list li, .cd-section .projects .dropdown .dropdown-content ul.project-list li {
+          line-height: 22px; }
+          .cd-section .hello .dropdown .dropdown-content ul.project-list li a, .cd-section .about .dropdown .dropdown-content ul.project-list li a, .cd-section .social .dropdown .dropdown-content ul.project-list li a, .cd-section .projects .dropdown .dropdown-content ul.project-list li a {
+            color: #818a99;
+            font-size: 12px;
+            font-family: 'Montserrat', sans-serif;
+            letter-spacing: 1px; }
+            .cd-section .hello .dropdown .dropdown-content ul.project-list li a:hover, .cd-section .about .dropdown .dropdown-content ul.project-list li a:hover, .cd-section .social .dropdown .dropdown-content ul.project-list li a:hover, .cd-section .projects .dropdown .dropdown-content ul.project-list li a:hover {
+              color: #e9d1b2;
+              text-decoration: none; }
     .cd-section .hello .dropdown:hover .dropdown-content, .cd-section .about .dropdown:hover .dropdown-content, .cd-section .social .dropdown:hover .dropdown-content, .cd-section .projects .dropdown:hover .dropdown-content {
       display: block; }
     .cd-section .hello .dropdown:hover .dropbtn, .cd-section .about .dropdown:hover .dropbtn, .cd-section .social .dropdown:hover .dropbtn, .cd-section .projects .dropdown:hover .dropbtn {
-      background-color: #3e8e41; }
+      opacity: 1; }
     .cd-section .hello #proj1 .owl-controls .owl-pagination, .cd-section .hello #proj2 .owl-controls .owl-pagination, .cd-section .about #proj1 .owl-controls .owl-pagination, .cd-section .about #proj2 .owl-controls .owl-pagination, .cd-section .social #proj1 .owl-controls .owl-pagination, .cd-section .social #proj2 .owl-controls .owl-pagination, .cd-section .projects #proj1 .owl-controls .owl-pagination, .cd-section .projects #proj2 .owl-controls .owl-pagination {
       display: none; }
-    .cd-section .hello #proj1 .owl-controls .owl-buttons .owl-prev, .cd-section .hello #proj1 .owl-controls .owl-buttons .owl-next, .cd-section .hello #proj2 .owl-controls .owl-buttons .owl-prev, .cd-section .hello #proj2 .owl-controls .owl-buttons .owl-next, .cd-section .about #proj1 .owl-controls .owl-buttons .owl-prev, .cd-section .about #proj1 .owl-controls .owl-buttons .owl-next, .cd-section .about #proj2 .owl-controls .owl-buttons .owl-prev, .cd-section .about #proj2 .owl-controls .owl-buttons .owl-next, .cd-section .social #proj1 .owl-controls .owl-buttons .owl-prev, .cd-section .social #proj1 .owl-controls .owl-buttons .owl-next, .cd-section .social #proj2 .owl-controls .owl-buttons .owl-prev, .cd-section .social #proj2 .owl-controls .owl-buttons .owl-next, .cd-section .projects #proj1 .owl-controls .owl-buttons .owl-prev, .cd-section .projects #proj1 .owl-controls .owl-buttons .owl-next, .cd-section .projects #proj2 .owl-controls .owl-buttons .owl-prev, .cd-section .projects #proj2 .owl-controls .owl-buttons .owl-next {
+    .cd-section .hello #proj1 .owl-controls .owl-buttons div, .cd-section .hello #proj2 .owl-controls .owl-buttons div, .cd-section .about #proj1 .owl-controls .owl-buttons div, .cd-section .about #proj2 .owl-controls .owl-buttons div, .cd-section .social #proj1 .owl-controls .owl-buttons div, .cd-section .social #proj2 .owl-controls .owl-buttons div, .cd-section .projects #proj1 .owl-controls .owl-buttons div, .cd-section .projects #proj2 .owl-controls .owl-buttons div {
       border: 1px solid #818a99;
       color: #818a99;
-      background: none; }
+      background: none;
+      border-radius: 0; }
     .cd-section .hello .owl-carousel img, .cd-section .about .owl-carousel img, .cd-section .social .owl-carousel img, .cd-section .projects .owl-carousel img {
       width: 768px;
       height: 423px; }

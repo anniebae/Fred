@@ -152,8 +152,6 @@ Main components
 		    line-height: 25px;
 	    }
 
-
-
 	    .part {
 	    	color: #fff;
 	    	text-align: left;
@@ -187,33 +185,52 @@ Main components
 		    position: relative;
 		    display: inline-block;
 		    z-index: 1;
-
-
+			
+			margin-bottom: 23px;
 
 		    .dropbtn {
-			    background-color: #4CAF50;
-			    color: white;
-			    padding: 16px;
-			    font-size: 16px;
-			    border: none;
+			    padding: 12px;
+			    font-size: 12px;
+			    font-family: 'Montserrat', sans-serif;
+			    letter-spacing: 3px;
 			    cursor: pointer;
+			    text-transform: uppercase;
+			    border: 1px solid #818a99;
+			    color: #fff;
+			    background: #818a99;
+			    // border-radius: 30px;
+			    // opacity: 0.5;
 			}
 			.dropdown-content {
 			    display: none;
 			    position: absolute;
-			    background-color: #f9f9f9;
 			    min-width: 160px;
-			    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+			    text-align: left;
+			    list-style: none;
+			    background-color: #fff;
+			    -webkit-background-clip: padding-box;
+			    background-clip: padding-box;
+			    border: 1px solid #ccc;
+			    border: 1px solid rgba(0, 0, 0, .15);
+			    -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
+			    box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
 
-			    .dropdown-content a {
-				    color: black;
-				    padding: 12px 16px;
-				    text-decoration: none;
-				    display: block;
+				ul.project-list {
 
-				    &:hover {background-color: #f1f1f1}
+					li {
+						line-height: 22px;
+						a {
+							color: #818a99;
+							font-size: 12px;
+						    font-family: 'Montserrat', sans-serif;
+						    letter-spacing: 1px;
 
-
+							&:hover {
+								color: #e9d1b2;
+								text-decoration: none;
+							}
+						}
+					}
 				}
 			}
 		}
@@ -225,7 +242,8 @@ Main components
 
 		/* Change the background color of the dropdown button when the dropdown content is shown */
 		.dropdown:hover .dropbtn {
-		    background-color: #3e8e41;
+		    // background-color: #3e8e41;
+		    opacity: 1;
 		}
 
 
@@ -235,10 +253,11 @@ Main components
 	    			display: none;
 	    		}
 	    		.owl-buttons {
-	    			.owl-prev, .owl-next {
+	    			div {
 	    				border: 1px solid #818a99;
 	    				color: #818a99;
 	    				background: none;
+	    				border-radius: 0;
 	    			}
 	    		}
 	    	}
