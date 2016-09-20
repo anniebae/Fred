@@ -93,7 +93,9 @@ Main components
     transform: translateX(-50%) translateY(-50%);
     width: 90%;
     max-width: 768px;
-    text-align: center; }
+    text-align: center;
+    /* Show the dropdown menu on hover */
+    /* Change the background color of the dropdown button when the dropdown content is shown */ }
     .cd-section .hello .name, .cd-section .about .name, .cd-section .social .name, .cd-section .projects .name {
       font-size: 1.875rem;
       color: #696969;
@@ -136,6 +138,34 @@ Main components
           .cd-section .hello .part .part-desc a:hover, .cd-section .about .part .part-desc a:hover, .cd-section .social .part .part-desc a:hover, .cd-section .projects .part .part-desc a:hover {
             color: #f5f6f7;
             text-decoration: underline; }
+    .cd-section .hello .dropdown, .cd-section .about .dropdown, .cd-section .social .dropdown, .cd-section .projects .dropdown {
+      position: relative;
+      display: inline-block;
+      z-index: 1; }
+      .cd-section .hello .dropdown .dropbtn, .cd-section .about .dropdown .dropbtn, .cd-section .social .dropdown .dropbtn, .cd-section .projects .dropdown .dropbtn {
+        background-color: #4CAF50;
+        color: white;
+        padding: 16px;
+        font-size: 16px;
+        border: none;
+        cursor: pointer; }
+      .cd-section .hello .dropdown .dropdown-content, .cd-section .about .dropdown .dropdown-content, .cd-section .social .dropdown .dropdown-content, .cd-section .projects .dropdown .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2); }
+        .cd-section .hello .dropdown .dropdown-content .dropdown-content a, .cd-section .about .dropdown .dropdown-content .dropdown-content a, .cd-section .social .dropdown .dropdown-content .dropdown-content a, .cd-section .projects .dropdown .dropdown-content .dropdown-content a {
+          color: black;
+          padding: 12px 16px;
+          text-decoration: none;
+          display: block; }
+          .cd-section .hello .dropdown .dropdown-content .dropdown-content a:hover, .cd-section .about .dropdown .dropdown-content .dropdown-content a:hover, .cd-section .social .dropdown .dropdown-content .dropdown-content a:hover, .cd-section .projects .dropdown .dropdown-content .dropdown-content a:hover {
+            background-color: #f1f1f1; }
+    .cd-section .hello .dropdown:hover .dropdown-content, .cd-section .about .dropdown:hover .dropdown-content, .cd-section .social .dropdown:hover .dropdown-content, .cd-section .projects .dropdown:hover .dropdown-content {
+      display: block; }
+    .cd-section .hello .dropdown:hover .dropbtn, .cd-section .about .dropdown:hover .dropbtn, .cd-section .social .dropdown:hover .dropbtn, .cd-section .projects .dropdown:hover .dropbtn {
+      background-color: #3e8e41; }
     .cd-section .hello #proj1 .owl-controls .owl-pagination, .cd-section .hello #proj2 .owl-controls .owl-pagination, .cd-section .about #proj1 .owl-controls .owl-pagination, .cd-section .about #proj2 .owl-controls .owl-pagination, .cd-section .social #proj1 .owl-controls .owl-pagination, .cd-section .social #proj2 .owl-controls .owl-pagination, .cd-section .projects #proj1 .owl-controls .owl-pagination, .cd-section .projects #proj2 .owl-controls .owl-pagination {
       display: none; }
     .cd-section .hello #proj1 .owl-controls .owl-buttons .owl-prev, .cd-section .hello #proj1 .owl-controls .owl-buttons .owl-next, .cd-section .hello #proj2 .owl-controls .owl-buttons .owl-prev, .cd-section .hello #proj2 .owl-controls .owl-buttons .owl-next, .cd-section .about #proj1 .owl-controls .owl-buttons .owl-prev, .cd-section .about #proj1 .owl-controls .owl-buttons .owl-next, .cd-section .about #proj2 .owl-controls .owl-buttons .owl-prev, .cd-section .about #proj2 .owl-controls .owl-buttons .owl-next, .cd-section .social #proj1 .owl-controls .owl-buttons .owl-prev, .cd-section .social #proj1 .owl-controls .owl-buttons .owl-next, .cd-section .social #proj2 .owl-controls .owl-buttons .owl-prev, .cd-section .social #proj2 .owl-controls .owl-buttons .owl-next, .cd-section .projects #proj1 .owl-controls .owl-buttons .owl-prev, .cd-section .projects #proj1 .owl-controls .owl-buttons .owl-next, .cd-section .projects #proj2 .owl-controls .owl-buttons .owl-prev, .cd-section .projects #proj2 .owl-controls .owl-buttons .owl-next {
@@ -145,14 +175,14 @@ Main components
     .cd-section .hello .owl-carousel img, .cd-section .about .owl-carousel img, .cd-section .social .owl-carousel img, .cd-section .projects .owl-carousel img {
       width: 768px;
       height: 423px; }
-    .cd-section .hello ul, .cd-section .about ul, .cd-section .social ul, .cd-section .projects ul {
+    .cd-section .hello ul.social-list, .cd-section .about ul.social-list, .cd-section .social ul.social-list, .cd-section .projects ul.social-list {
       list-style-type: none; }
-      .cd-section .hello ul li, .cd-section .about ul li, .cd-section .social ul li, .cd-section .projects ul li {
+      .cd-section .hello ul.social-list li, .cd-section .about ul.social-list li, .cd-section .social ul.social-list li, .cd-section .projects ul.social-list li {
         display: inline-block; }
-        .cd-section .hello ul li a img, .cd-section .about ul li a img, .cd-section .social ul li a img, .cd-section .projects ul li a img {
+        .cd-section .hello ul.social-list li a img, .cd-section .about ul.social-list li a img, .cd-section .social ul.social-list li a img, .cd-section .projects ul.social-list li a img {
           width: 60px;
           transition: .5s ease-in-out; }
-          .cd-section .hello ul li a img:hover, .cd-section .about ul li a img:hover, .cd-section .social ul li a img:hover, .cd-section .projects ul li a img:hover {
+          .cd-section .hello ul.social-list li a img:hover, .cd-section .about ul.social-list li a img:hover, .cd-section .social ul.social-list li a img:hover, .cd-section .projects ul.social-list li a img:hover {
             transform: scale(1.1); }
     .cd-section .hello span.email, .cd-section .about span.email, .cd-section .social span.email, .cd-section .projects span.email {
       font-size: 12px; }
