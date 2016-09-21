@@ -1,27 +1,36 @@
 var ProjectView = Backbone.View.extend ({
 	
-	el: '#project-carousel',
-	portTemplate: _.template($('#port-template').html()),
+	el: '#project-nav',
+	navTemplate: _.template($('#nav-template').html()),
+	portfolioTemplate: _.template($('#portfolio-template').html()),
 	travelTemplate: _.template($('#travel-template').html()),
 
 	initialize: function() {
-		this.render();
+		this.renderNav();
+		this.showPortfolio();
 	},
 
 	events: {
-		'click #btn-port' : 'initialize',
+		'click #btn-portfolio' : 'showPortfolio',
 		'click #btn-travel' : 'showTravel',
 	},
 
-	render: function() {
-		this.$el.html(this.portTemplate());
-		
+	renderNav: function() {
+		this.$el.html(this.navTemplate());
+		return this;
 	},
 
-	showTravel: function() {
+	showPortfolio: function() {
+		this.renderNav();
+		alert('showPortfolio clicked');
+		$('#project-carousel').html(this.portfolioTemplate());
+	},
 
+
+	showTravel: function() {
+		this.renderNav();
 		alert('showTravel function');
-		this.$el.html(this.travelTemplate());
+		$('#project-carousel').html(this.travelTemplate());
 		
 	}
 
