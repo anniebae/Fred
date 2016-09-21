@@ -424,7 +424,9 @@ Main components
   .cd-section .about .row {
     width: 85%; }
   .cd-section .about .part .part-desc {
-    line-height: 22px; } }
+    line-height: 22px; }
+  .cd-section .projects .owl-carousel img {
+    object-fit: cover; } }
 @media only screen and (max-width: 400px) {
   .cd-section .about img.about_img {
     width: 100px; }

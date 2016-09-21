@@ -529,6 +529,14 @@ Main components
 				}
 			}
 		}
+
+		.projects {
+			.owl-carousel {
+				img {
+	    			object-fit: cover;
+				}
+			}
+		}
 	}
 }
 
