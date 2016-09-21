@@ -1,3 +1,6 @@
+new ProjectView();
+// new ProjectBtnView();
+
 $(function() {
 
 // jQuery(document).ready(function($){
@@ -51,20 +54,11 @@ $(function() {
 	}
 
 	$("#proj1, #proj2").owlCarousel({
-
 		navigation : true, // Show next and prev buttons
 		slideSpeed : 300,
 		paginationSpeed : 400,
 		singleItem:true
-
-		// "singleItem:true" is a shortcut for:
-		// items : 1, 
-		// itemsDesktop : false,
-		// itemsDesktopSmall : false,
-		// itemsTablet: false,
-		// itemsMobile : false
-
 	});
 
-	
+
 });
