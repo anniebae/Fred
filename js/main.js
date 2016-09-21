@@ -53,12 +53,12 @@ $(function() {
         );
 	}
 
-	$("#proj1, #proj2").owlCarousel({
-		navigation : true, // Show next and prev buttons
-		slideSpeed : 300,
-		paginationSpeed : 400,
-		singleItem:true
-	});
+	// $("#proj1, #proj2").owlCarousel({
+	// 	navigation : true, // Show next and prev buttons
+	// 	slideSpeed : 300,
+	// 	paginationSpeed : 400,
+	// 	singleItem:true
+	// });
 
 
 });
