@@ -198,8 +198,6 @@ Main components
 			    border: 1px solid #818a99;
 			    color: #fff;
 			    background: #818a99;
-			    // border-radius: 30px;
-			    // opacity: 0.5;
 			}
 			.dropdown-content {
 			    display: none;
@@ -219,11 +217,13 @@ Main components
 
 					li {
 						line-height: 22px;
-						a {
+						button {
 							color: #818a99;
 							font-size: 12px;
 						    font-family: 'Montserrat', sans-serif;
 						    letter-spacing: 1px;
+						    background: none;
+						    border: none;
 
 							&:hover {
 								color: #e9d1b2;
@@ -247,7 +247,7 @@ Main components
 		}
 
 
-	    #proj1, #proj2 {
+	    #proj1, #proj2, #proj3 {
 	    	.owl-controls {
 	    		.owl-pagination {
 	    			display: none;

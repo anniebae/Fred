@@ -1,5 +1,13 @@
+var owlCarouselTrigger = function() {
+	$(".owl-carousel").owlCarousel({
+		navigation : true, // Show next and prev buttons
+		slideSpeed : 300,
+		paginationSpeed : 400,
+		singleItem:true
+	});
+}
+
 new ProjectView();
-// new ProjectBtnView();
 
 $(function() {
 
@@ -53,7 +61,18 @@ $(function() {
         );
 	}
 
-	// $("#proj1, #proj2").owlCarousel({
+	// var owlCarouselTrigger = function() {
+	// 	$(".owl-carousel").owlCarousel({
+	// 		navigation : true, // Show next and prev buttons
+	// 		slideSpeed : 300,
+	// 		paginationSpeed : 400,
+	// 		singleItem:true
+	// 	});
+	// }
+
+
+
+	// $(".owl-carousel").owlCarousel({
 	// 	navigation : true, // Show next and prev buttons
 	// 	slideSpeed : 300,
 	// 	paginationSpeed : 400,

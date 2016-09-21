@@ -168,21 +168,23 @@ Main components
         box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175); }
         .cd-section .hello .dropdown .dropdown-content ul.project-list li, .cd-section .about .dropdown .dropdown-content ul.project-list li, .cd-section .social .dropdown .dropdown-content ul.project-list li, .cd-section .projects .dropdown .dropdown-content ul.project-list li {
           line-height: 22px; }
-          .cd-section .hello .dropdown .dropdown-content ul.project-list li a, .cd-section .about .dropdown .dropdown-content ul.project-list li a, .cd-section .social .dropdown .dropdown-content ul.project-list li a, .cd-section .projects .dropdown .dropdown-content ul.project-list li a {
+          .cd-section .hello .dropdown .dropdown-content ul.project-list li button, .cd-section .about .dropdown .dropdown-content ul.project-list li button, .cd-section .social .dropdown .dropdown-content ul.project-list li button, .cd-section .projects .dropdown .dropdown-content ul.project-list li button {
             color: #818a99;
             font-size: 12px;
             font-family: 'Montserrat', sans-serif;
-            letter-spacing: 1px; }
-            .cd-section .hello .dropdown .dropdown-content ul.project-list li a:hover, .cd-section .about .dropdown .dropdown-content ul.project-list li a:hover, .cd-section .social .dropdown .dropdown-content ul.project-list li a:hover, .cd-section .projects .dropdown .dropdown-content ul.project-list li a:hover {
+            letter-spacing: 1px;
+            background: none;
+            border: none; }
+            .cd-section .hello .dropdown .dropdown-content ul.project-list li button:hover, .cd-section .about .dropdown .dropdown-content ul.project-list li button:hover, .cd-section .social .dropdown .dropdown-content ul.project-list li button:hover, .cd-section .projects .dropdown .dropdown-content ul.project-list li button:hover {
               color: #e9d1b2;
               text-decoration: none; }
     .cd-section .hello .dropdown:hover .dropdown-content, .cd-section .about .dropdown:hover .dropdown-content, .cd-section .social .dropdown:hover .dropdown-content, .cd-section .projects .dropdown:hover .dropdown-content {
       display: block; }
     .cd-section .hello .dropdown:hover .dropbtn, .cd-section .about .dropdown:hover .dropbtn, .cd-section .social .dropdown:hover .dropbtn, .cd-section .projects .dropdown:hover .dropbtn {
       opacity: 1; }
-    .cd-section .hello #proj1 .owl-controls .owl-pagination, .cd-section .hello #proj2 .owl-controls .owl-pagination, .cd-section .about #proj1 .owl-controls .owl-pagination, .cd-section .about #proj2 .owl-controls .owl-pagination, .cd-section .social #proj1 .owl-controls .owl-pagination, .cd-section .social #proj2 .owl-controls .owl-pagination, .cd-section .projects #proj1 .owl-controls .owl-pagination, .cd-section .projects #proj2 .owl-controls .owl-pagination {
+    .cd-section .hello #proj1 .owl-controls .owl-pagination, .cd-section .hello #proj2 .owl-controls .owl-pagination, .cd-section .hello #proj3 .owl-controls .owl-pagination, .cd-section .about #proj1 .owl-controls .owl-pagination, .cd-section .about #proj2 .owl-controls .owl-pagination, .cd-section .about #proj3 .owl-controls .owl-pagination, .cd-section .social #proj1 .owl-controls .owl-pagination, .cd-section .social #proj2 .owl-controls .owl-pagination, .cd-section .social #proj3 .owl-controls .owl-pagination, .cd-section .projects #proj1 .owl-controls .owl-pagination, .cd-section .projects #proj2 .owl-controls .owl-pagination, .cd-section .projects #proj3 .owl-controls .owl-pagination {
       display: none; }
-    .cd-section .hello #proj1 .owl-controls .owl-buttons div, .cd-section .hello #proj2 .owl-controls .owl-buttons div, .cd-section .about #proj1 .owl-controls .owl-buttons div, .cd-section .about #proj2 .owl-controls .owl-buttons div, .cd-section .social #proj1 .owl-controls .owl-buttons div, .cd-section .social #proj2 .owl-controls .owl-buttons div, .cd-section .projects #proj1 .owl-controls .owl-buttons div, .cd-section .projects #proj2 .owl-controls .owl-buttons div {
+    .cd-section .hello #proj1 .owl-controls .owl-buttons div, .cd-section .hello #proj2 .owl-controls .owl-buttons div, .cd-section .hello #proj3 .owl-controls .owl-buttons div, .cd-section .about #proj1 .owl-controls .owl-buttons div, .cd-section .about #proj2 .owl-controls .owl-buttons div, .cd-section .about #proj3 .owl-controls .owl-buttons div, .cd-section .social #proj1 .owl-controls .owl-buttons div, .cd-section .social #proj2 .owl-controls .owl-buttons div, .cd-section .social #proj3 .owl-controls .owl-buttons div, .cd-section .projects #proj1 .owl-controls .owl-buttons div, .cd-section .projects #proj2 .owl-controls .owl-buttons div, .cd-section .projects #proj3 .owl-controls .owl-buttons div {
       border: 1px solid #818a99;
       color: #818a99;
       background: none;
