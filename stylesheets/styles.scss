@@ -246,6 +246,27 @@ Main components
 		    opacity: 1;
 		}
 
+		#project-carousel {
+			position: relative;
+
+			span.github {
+				position: absolute;
+			    top: 0;
+			    right: 0;
+			    z-index: 2;
+			    background: #e9d1b2;
+			    opacity: 1;
+
+			    &:hover {
+			    	opacity: 0.7;
+			    }
+
+			    img {
+			    	width: 40px;
+			    }
+			}
+		}
+
 
 	    #proj1, #proj2, #proj3, #proj4 {
 	    	.owl-controls {

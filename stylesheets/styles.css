@@ -182,6 +182,19 @@ Main components
       display: block; }
     .cd-section .hello .dropdown:hover .dropbtn, .cd-section .about .dropdown:hover .dropbtn, .cd-section .social .dropdown:hover .dropbtn, .cd-section .projects .dropdown:hover .dropbtn {
       opacity: 1; }
+    .cd-section .hello #project-carousel, .cd-section .about #project-carousel, .cd-section .social #project-carousel, .cd-section .projects #project-carousel {
+      position: relative; }
+      .cd-section .hello #project-carousel span.github, .cd-section .about #project-carousel span.github, .cd-section .social #project-carousel span.github, .cd-section .projects #project-carousel span.github {
+        position: absolute;
+        top: 0;
+        right: 0;
+        z-index: 2;
+        background: #e9d1b2;
+        opacity: 1; }
+        .cd-section .hello #project-carousel span.github:hover, .cd-section .about #project-carousel span.github:hover, .cd-section .social #project-carousel span.github:hover, .cd-section .projects #project-carousel span.github:hover {
+          opacity: 0.7; }
+        .cd-section .hello #project-carousel span.github img, .cd-section .about #project-carousel span.github img, .cd-section .social #project-carousel span.github img, .cd-section .projects #project-carousel span.github img {
+          width: 40px; }
     .cd-section .hello #proj1 .owl-controls .owl-pagination, .cd-section .hello #proj2 .owl-controls .owl-pagination, .cd-section .hello #proj3 .owl-controls .owl-pagination, .cd-section .hello #proj4 .owl-controls .owl-pagination, .cd-section .about #proj1 .owl-controls .owl-pagination, .cd-section .about #proj2 .owl-controls .owl-pagination, .cd-section .about #proj3 .owl-controls .owl-pagination, .cd-section .about #proj4 .owl-controls .owl-pagination, .cd-section .social #proj1 .owl-controls .owl-pagination, .cd-section .social #proj2 .owl-controls .owl-pagination, .cd-section .social #proj3 .owl-controls .owl-pagination, .cd-section .social #proj4 .owl-controls .owl-pagination, .cd-section .projects #proj1 .owl-controls .owl-pagination, .cd-section .projects #proj2 .owl-controls .owl-pagination, .cd-section .projects #proj3 .owl-controls .owl-pagination, .cd-section .projects #proj4 .owl-controls .owl-pagination {
       display: none; }
     .cd-section .hello #proj1 .owl-controls .owl-buttons div, .cd-section .hello #proj2 .owl-controls .owl-buttons div, .cd-section .hello #proj3 .owl-controls .owl-buttons div, .cd-section .hello #proj4 .owl-controls .owl-buttons div, .cd-section .about #proj1 .owl-controls .owl-buttons div, .cd-section .about #proj2 .owl-controls .owl-buttons div, .cd-section .about #proj3 .owl-controls .owl-buttons div, .cd-section .about #proj4 .owl-controls .owl-buttons div, .cd-section .social #proj1 .owl-controls .owl-buttons div, .cd-section .social #proj2 .owl-controls .owl-buttons div, .cd-section .social #proj3 .owl-controls .owl-buttons div, .cd-section .social #proj4 .owl-controls .owl-buttons div, .cd-section .projects #proj1 .owl-controls .owl-buttons div, .cd-section .projects #proj2 .owl-controls .owl-buttons div, .cd-section .projects #proj3 .owl-controls .owl-buttons div, .cd-section .projects #proj4 .owl-controls .owl-buttons div {
