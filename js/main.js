@@ -50,7 +50,7 @@ $(function() {
         );
 	}
 
-	$(" #proj2").owlCarousel({
+	$("#proj1, #proj2").owlCarousel({
 
 		navigation : true, // Show next and prev buttons
 		slideSpeed : 300,
@@ -66,5 +66,5 @@ $(function() {
 
 	});
 
-
+	
 });
