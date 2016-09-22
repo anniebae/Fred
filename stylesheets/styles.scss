@@ -531,6 +531,9 @@ Main components
 @media only screen and (max-width: 767px) {
 	.cd-section {
 		.about {
+			div.subtitle {
+				font-size: 9.5px;
+			}
 			.row {
 				width: 70%;
 				margin: 0 auto;
@@ -540,6 +543,9 @@ Main components
 }
 
 @media only screen and (max-width: 620px) {
+	.cd-scroll-down {
+		background-size: 24px;
+	}
 	.cd-section {
 		.about {
 			.row {

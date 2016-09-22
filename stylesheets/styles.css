@@ -435,10 +435,15 @@ Main components
   .touch .cd-nav-trigger, .touch #cd-vertical-nav {
     bottom: 40px; } }
 @media only screen and (max-width: 767px) {
+  .cd-section .about div.subtitle {
+    font-size: 9.5px; }
   .cd-section .about .row {
     width: 70%;
     margin: 0 auto; } }
 @media only screen and (max-width: 620px) {
+  .cd-scroll-down {
+    background-size: 24px; }
+
   .cd-section .about .row {
     width: 85%; }
   .cd-section .about .part .part-desc {
