@@ -255,8 +255,8 @@ Main components
 			    z-index: 2;
 			    background: #e9d1b2;
 			    opacity: 0.9;
-			    border-top: 0.5px solid #cdcdcd;
-    			border-right: 0.5px solid #cdcdcd;
+			    border-top: 0.5px solid #e6e6e6;
+    			border-right: 0.5px solid #e6e6e6;
 
 			    &:hover {
 			    	opacity: 1;
@@ -288,7 +288,7 @@ Main components
 	    .owl-carousel img {
 	    	width: 768px;
 	    	height: 423px;
-	    	border: 1px solid #cdcdcd;
+	    	border: 1px solid #e6e6e6;
 	    }
 
 		
@@ -553,11 +553,38 @@ Main components
 		}
 
 		.projects {
-			.owl-carousel {
-				img {
-	    			object-fit: cover;
+			.dropdown {
+				.dropbtn {
+					padding: 9px;
+					font-size: 10px;
 				}
 			}
+			#project-carousel {
+				span.github {
+					img {
+						width: 30px;
+					}
+				}
+			}
+
+			.owl-carousel {
+				.owl-wrapper-outer {
+					img {
+		    			object-fit: cover;
+		    			border: none;
+					}
+				}
+			}
+
+			#proj1, #proj2, #proj3, #proj4 {
+		    	.owl-controls {
+		    		.owl-buttons {
+		    			div {
+		    				font-size: 8px;
+		    			}
+		    		}
+		    	}
+		    }
 		}
 	}
 }

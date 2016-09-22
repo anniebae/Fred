@@ -191,8 +191,8 @@ Main components
         z-index: 2;
         background: #e9d1b2;
         opacity: 0.9;
-        border-top: 0.5px solid #cdcdcd;
-        border-right: 0.5px solid #cdcdcd; }
+        border-top: 0.5px solid #e6e6e6;
+        border-right: 0.5px solid #e6e6e6; }
         .cd-section .hello #project-carousel span.github:hover, .cd-section .about #project-carousel span.github:hover, .cd-section .social #project-carousel span.github:hover, .cd-section .projects #project-carousel span.github:hover {
           opacity: 1; }
         .cd-section .hello #project-carousel span.github img, .cd-section .about #project-carousel span.github img, .cd-section .social #project-carousel span.github img, .cd-section .projects #project-carousel span.github img {
@@ -207,7 +207,7 @@ Main components
     .cd-section .hello .owl-carousel img, .cd-section .about .owl-carousel img, .cd-section .social .owl-carousel img, .cd-section .projects .owl-carousel img {
       width: 768px;
       height: 423px;
-      border: 1px solid #cdcdcd; }
+      border: 1px solid #e6e6e6; }
     .cd-section .hello ul.social-list, .cd-section .about ul.social-list, .cd-section .social ul.social-list, .cd-section .projects ul.social-list {
       list-style-type: none; }
       .cd-section .hello ul.social-list li, .cd-section .about ul.social-list li, .cd-section .social ul.social-list li, .cd-section .projects ul.social-list li {
@@ -443,8 +443,16 @@ Main components
     width: 85%; }
   .cd-section .about .part .part-desc {
     line-height: 22px; }
-  .cd-section .projects .owl-carousel img {
-    object-fit: cover; } }
+  .cd-section .projects .dropdown .dropbtn {
+    padding: 9px;
+    font-size: 10px; }
+  .cd-section .projects #project-carousel span.github img {
+    width: 30px; }
+  .cd-section .projects .owl-carousel .owl-wrapper-outer img {
+    object-fit: cover;
+    border: none; }
+  .cd-section .projects #proj1 .owl-controls .owl-buttons div, .cd-section .projects #proj2 .owl-controls .owl-buttons div, .cd-section .projects #proj3 .owl-controls .owl-buttons div, .cd-section .projects #proj4 .owl-controls .owl-buttons div {
+    font-size: 8px; } }
 @media only screen and (max-width: 400px) {
   .cd-section .about img.about_img {
     width: 100px; }
