@@ -242,7 +242,6 @@ Main components
 
 		/* Change the background color of the dropdown button when the dropdown content is shown */
 		.dropdown:hover .dropbtn {
-		    // background-color: #3e8e41;
 		    opacity: 1;
 		}
 
@@ -255,10 +254,12 @@ Main components
 			    right: 0;
 			    z-index: 2;
 			    background: #e9d1b2;
-			    opacity: 1;
+			    opacity: 0.9;
+			    border-top: 0.5px solid #cdcdcd;
+    			border-right: 0.5px solid #cdcdcd;
 
 			    &:hover {
-			    	opacity: 0.7;
+			    	opacity: 1;
 			    }
 
 			    img {
@@ -287,7 +288,7 @@ Main components
 	    .owl-carousel img {
 	    	width: 768px;
 	    	height: 423px;
-	    	// object-fit: cover;
+	    	border: 1px solid #cdcdcd;
 	    }
 
 		
